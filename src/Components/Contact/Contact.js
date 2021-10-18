@@ -11,7 +11,8 @@ const Contact = () => {
 
             <div className="log-in">
                 <h4>Already Registered? Then Please Log In </h4>
-                <Link className="btn btn-success" to="/LogIn">Already Registered?</Link>
+                <p>Please Log In Woth Your Google Account</p>
+                <Link className="btn btn-success" to="/LogIn">Log In</Link>
             </div>
         </div>
     );
