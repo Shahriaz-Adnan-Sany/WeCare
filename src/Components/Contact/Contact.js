@@ -1,14 +1,18 @@
 import React from 'react';
-
-import Register from './Register';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     return (
-        <div>
-            {
-                <Register></Register>
-            }
+        <div className="m-4 row row-cols-2 g-4">
+            <div className="register ">
+                <h4>New Here? Then Please Register As a New Patient</h4>
+                <Link className="btn btn-success" to="/Register">Register Now</Link>
+            </div>
 
+            <div className="log-in">
+                <h4>Already Registered? Then Please Log In </h4>
+                <Link className="btn btn-success" to="/LogIn">Already Registered?</Link>
+            </div>
         </div>
     );
 };

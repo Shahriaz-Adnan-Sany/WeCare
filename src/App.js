@@ -12,6 +12,9 @@ import Services from './Components/Service/Services';
 import Feature from './Components/Features/Feature';
 import Contact from './Components/Contact/Contact';
 import Header from './Components/Header/Header';
+import LogIn from './Components/Contact/LogIn';
+import Register from './Components/Contact/Register';
+import Notfound from './Components/NotFound/Notfound';
 function App() {
   return (
     <div className="App">
@@ -43,9 +46,18 @@ function App() {
             <Contact></Contact>
           </Route>
 
-          <Route>
-
+          <Route path='/LogIn'>
+            <LogIn></LogIn>
           </Route>
+
+          <Route path='/Register'>
+            <Register></Register>
+          </Route>
+
+          <Route path='*'>
+            <Notfound></Notfound>
+          </Route>
+
           <Route>
 
           </Route>

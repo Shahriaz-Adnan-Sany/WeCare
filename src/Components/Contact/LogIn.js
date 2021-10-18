@@ -5,7 +5,8 @@ import './LogIn.css';
 const LogIn = () => {
     return (
         <div>
-            <Form>
+            <Form className="w-75 mx-auto">
+                <h2 className="my-2">Please Log In</h2>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" />
