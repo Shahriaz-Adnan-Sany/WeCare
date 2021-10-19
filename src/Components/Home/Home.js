@@ -15,7 +15,7 @@ const Home = (props) => {
             </div>
 
             {/* Showing Items Here */}
-            <div className="course-preview row">
+            <div className="course-preview my-4 row">
                 <h3 className="my-2">Here Are Some Services Preview</h3>
 
                 {
