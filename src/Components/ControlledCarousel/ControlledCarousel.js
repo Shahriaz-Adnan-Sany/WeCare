@@ -15,7 +15,7 @@ function ControlledCarousel() {
             <Carousel.Item>
                 <div className="img-style">
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 img-fluid"
                         src="https://i.ibb.co/2tTSwHp/heart-bg2.jpg"
                         alt="Second slide"
                     />
@@ -29,7 +29,7 @@ function ControlledCarousel() {
             <Carousel.Item>
                 <div className="img-style">
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 img-fluid"
                         src="https://i.ibb.co/yhCffkP/heart-bg3.png"
                         alt="Second slide"
                     />
@@ -44,7 +44,7 @@ function ControlledCarousel() {
             <Carousel.Item>
                 <div className="img-style">
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 img-fluid"
                         src="https://i.ibb.co/P53NPXw/heart-bg1.jpg"
                         alt="Second slide"
                     />

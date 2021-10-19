@@ -12,7 +12,7 @@ const Home = (props) => {
     return (
         <div className="home-container px-4">
             {/* Showing Slider Here */}
-            <div className="slider ">
+            <div className="slider">
                 <ControlledCarousel></ControlledCarousel>
             </div>
 
