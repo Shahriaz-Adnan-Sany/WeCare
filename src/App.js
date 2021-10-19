@@ -17,6 +17,7 @@ import Register from './Components/Contact/Register';
 import Notfound from './Components/NotFound/Notfound';
 import InputForm from './Components/Contact/InputForm';
 import Footer from './Components/Footer/Footer';
+import SingleItem from './Components/SingleItem/SingleItem';
 function App() {
   return (
     <div className="App">
@@ -60,13 +61,15 @@ function App() {
             <InputForm></InputForm>
           </Route>
 
+          <Route path='/SingleItem/:serviceID'>
+            <SingleItem></SingleItem>
+          </Route>
+
           <Route path='*'>
             <Notfound></Notfound>
           </Route>
 
-          <Route>
 
-          </Route>
           <Route>
 
           </Route>

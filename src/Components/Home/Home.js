@@ -27,7 +27,7 @@ const Home = (props) => {
             {/* Showing Features Here */}
             <div className="Feature my-2 p-4">
                 {
-
+                        
                 }
             </div>
 
