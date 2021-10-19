@@ -51,10 +51,10 @@ const InputForm = () => {
         console.log(email, password);
 
     }
-
     const handleUserName = e => {
         setName(e.target.value);
     }
+
     const processLOgIn = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
@@ -74,18 +74,18 @@ const InputForm = () => {
                 console.log(user);
                 setError('');
                 setUserName();
-                emailVerification();
+                // emailVerification();
             })
             .catch(error => {
                 setError(error.message);
             });
     }
-    const emailVerification = () => {
+    /* const emailVerification = () => {
         sendEmailVerification(auth.currentUser)
             .then(result => {
                 console.log('Varify Email');
             })
-    }
+    } */
     const handleResetPassword = () => {
         sendPasswordResetEmail(auth, email)
             .then(() => {
@@ -132,7 +132,7 @@ const InputForm = () => {
 
                 <div className="row mb-3">
                     <div className="col-sm-10 offset-sm-2">
-                        <div className="form-check">
+                        <div className="form-check  text-start">
                             <input onChange={toggleLogIn} className="form-check-input" type="checkbox" id="gridCheck1" />
                             <label className="form-check-label" htmlFor="gridCheck1">
                                 Already Registered?

@@ -62,7 +62,7 @@ function App() {
           </Route>
 
           <Route path='/SingleItem/:serviceID'>
-            <SingleItem></SingleItem>
+            <SingleItem ></SingleItem>
           </Route>
 
           <Route path='*'>

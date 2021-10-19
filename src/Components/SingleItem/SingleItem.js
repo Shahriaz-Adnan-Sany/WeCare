@@ -1,13 +1,11 @@
 import React from 'react';
-import useItems from '../Hooks/DataHook';
+import { useParams } from 'react-router';
 
-const SingleItem = (props) => {
-    const [item, setItem] = useItems(props);
+const SingleItem = () => {
+    const { serviceID } = useParams();
     return (
-        <div className="single-item">
-            <img src="" alt="" />
-            <h4></h4>
-            <p></p>
+        <div>
+            <h2>hello</h2>
         </div>
     );
 };
