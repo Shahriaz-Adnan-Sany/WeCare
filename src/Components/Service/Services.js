@@ -6,9 +6,9 @@ import './Services.css';
 const Services = (props) => {
     const [items, setItems] = useItems(props);
     return (
-        <div className="courses-bg px-4">
-            <h2>Here are our all Courses</h2>
-            <h3>Ongoing Courses: {items.length}</h3>
+        <div className="services-bg p-4">
+            <h2 className="font-bold ">Here are Premium Services Preview</h2>
+            <h3 className="font-bold ">Total Active Services: {items.length}</h3>
             <div className="row">
                 {
                     items.map(item => <Items item={item} key={item.key}>

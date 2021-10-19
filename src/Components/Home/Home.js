@@ -1,5 +1,6 @@
 import React from 'react';
 import ControlledCarousel from '../ControlledCarousel/ControlledCarousel';
+import Feature from '../Features/Feature';
 import useItems from '../Hooks/DataHook';
 import Items from '../Items/Items';
 import './Home.css';
@@ -27,7 +28,7 @@ const Home = (props) => {
             {/* Showing Features Here */}
             <div className="Feature my-2 p-4">
                 {
-                        
+                    <Feature></Feature>
                 }
             </div>
 

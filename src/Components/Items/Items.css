@@ -1,10 +1,10 @@
 .single-item {
-    background-color:lightskyblue;
+    background-color:lavender;
     border-radius: 20px;
 }
 .cart-img {
-    width: 350px;
-    height: 200px;
+    width: 380px;
+    height: 250px;
 }
 .cart-img img {
     width: 100%;
