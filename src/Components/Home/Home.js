@@ -1,4 +1,5 @@
 import React from 'react';
+import ControlledCarousel from '../ControlledCarousel/ControlledCarousel';
 import useItems from '../Hooks/DataHook';
 import Items from '../Items/Items';
 import './Home.css';
@@ -8,7 +9,10 @@ const Home = (props) => {
     const item = items.slice(0, 6);
     return (
         <div className="home-container px-4">
-            <h2 className="fw-bold">Welcome To Our all Exclusive Customer Services</h2><hr className="bg-success" />
+            {/* Showing Slider Here */}
+            <div className="slider ">
+                <ControlledCarousel></ControlledCarousel>
+            </div>
 
             {/* Showing Items Here */}
             <div className="course-preview row">
@@ -26,10 +30,7 @@ const Home = (props) => {
 
                 }
             </div>
-            {/* Showing Slider Here */}
-            <div className="slider">
 
-            </div>
         </div>
     );
 };

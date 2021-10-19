@@ -95,5 +95,17 @@ const data = [
         img: "https://i.ibb.co/S5ZdVyN/img-16.jpg",
         key: "WC16"
     },
+    {
+        title: "Respiratory Medicine",
+        description: "Department of Respiratory Medicine of WeCare Hospital Chattogram offers comprehensive diagnosis, treatment and continuing care for patients with variety of conditions of the lungs and respiratory tract. Our clinical services are provided by experienced Respiratory Medicine Consultant and backed by state-of-the-art technology. The department performs investigations like pulmonary function tests (PFT) and bronchoscopy, and is well supported in terms of imaging modalities by Department of Diagnostic & Interventional Radiology.",
+        img: "https://i.ibb.co/rf2n9Jq/pic-17.jpg",
+        key: "WC17"
+    },
+    {
+        title: "Dietetics & Nutrition",
+        description: "Dietetics is a science that deals with the adequacy of diets during normal life cycle and modifications required during diseased conditions. The Department of Dietetics of WeCare Hospital Chattogram is an established department with well-trained clinical and experienced dieticians, working as a team to provide holistic and integrated dietary services. The primary goal is to provide and maintain an excellent and quality dietary service in meeting patient unique needs and wants. WeCare Hospital Chattogram facilitates all sorts of dietary suggestions for you and your family. You can come to our out-patient clinic for diet counseling on your own, or if recommended by your treating physician. Moreover, all preventive health screening packages provide diet consultation. Hospitalized patients can consult with our in-patient dieticians during their hospital stay and also while being discharged for any necessary dietary advice. Our dieticians will provide personalized diet instruction, menu planning, lifestyle and behavioral changes advice to insure a healthy nutritional plan. They help you learn ways to make better choices about the kind of food you eat, and explain to you what the benefits of these changes are. They understand that the more a person understands the way that his/her body works, the more likely he/she will be to see the immediate benefits of these lifestyle changes, and make them a part of his/her routine.",
+        img: "https://i.ibb.co/180rYQv/Doctor-dietitian-recommending-healthy-food.jpg",
+        key: "WC18"
+    },
 
 ];

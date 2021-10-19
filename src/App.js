@@ -16,6 +16,7 @@ import LogIn from './Components/Contact/LogIn';
 import Register from './Components/Contact/Register';
 import Notfound from './Components/NotFound/Notfound';
 import InputForm from './Components/Contact/InputForm';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -70,6 +71,7 @@ function App() {
 
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );
