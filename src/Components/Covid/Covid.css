@@ -1,0 +1,13 @@
+.covid-container {
+    background-color:palegreen;
+}
+.covid-img {
+    width: 500px;
+    height: 450px;
+    cursor: pointer;
+    transform: scale(.9, .9);
+}
+.covid-img:hover {
+    transform: scale(1.2, 1.2);
+    transition: .8s;
+}

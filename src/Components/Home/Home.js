@@ -1,5 +1,6 @@
 import React from 'react';
 import ControlledCarousel from '../ControlledCarousel/ControlledCarousel';
+import Covid from '../Covid/Covid';
 import Feature from '../Features/Feature';
 import useItems from '../Hooks/DataHook';
 import Items from '../Items/Items';
@@ -31,7 +32,11 @@ const Home = (props) => {
                     <Feature></Feature>
                 }
             </div>
-
+            {/* Covid Components Here */}
+            <div className="Covid-container"></div>
+            {
+                <Covid></Covid>
+            }
         </div>
     );
 };
