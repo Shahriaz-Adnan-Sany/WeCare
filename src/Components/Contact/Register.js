@@ -24,23 +24,6 @@ const Register = () => {
                         <Form.Control placeholder="Address" />
                     </Col>
                 </Row>
-                <Row className="mb-3 row row-cols-3">
-                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        <input className="form-check-input me-2" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" />
-                        <label className="form-check-label" for="flexRadioDefault1">Male
-                        </label>
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        <input className="form-check-input me-2" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" />
-                        <label className="form-check-label" for="flexRadioDefault1">Female
-                        </label>
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        <input className="form-check-input me-2" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" />
-                        <label className="form-check-label" for="flexRadioDefault1">Others
-                        </label>
-                    </Form.Group>
-                </Row>
 
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridEmail">

@@ -15,6 +15,7 @@ import Header from './Components/Header/Header';
 import LogIn from './Components/Contact/LogIn';
 import Register from './Components/Contact/Register';
 import Notfound from './Components/NotFound/Notfound';
+import InputForm from './Components/Contact/InputForm';
 function App() {
   return (
     <div className="App">
@@ -52,6 +53,10 @@ function App() {
 
           <Route path='/Register'>
             <Register></Register>
+          </Route>
+
+          <Route path='/InputForm'>
+            <InputForm></InputForm>
           </Route>
 
           <Route path='*'>
