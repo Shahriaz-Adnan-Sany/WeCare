@@ -2,9 +2,13 @@ import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import useFirebase from '../Hooks/FirebaseHook';
 import './LogIn.css';
+// import useAuth from '../Hooks/UseAuth';
+
+
 const LogIn = () => {
     const { signInUsingGoogle } = useFirebase();
     const { signInUsingGitHub } = useFirebase();
+    /* const { signInUsingGoogle, signInUsingGitHub } = useAuth(); */
     return (
         <div className="row row-cols-2 g-4">
             {/* Google Sign In Button */}

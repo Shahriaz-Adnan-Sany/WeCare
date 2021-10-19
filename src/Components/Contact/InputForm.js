@@ -74,18 +74,18 @@ const InputForm = () => {
                 console.log(user);
                 setError('');
                 setUserName();
-                // emailVerification();
+                emailVerification();
             })
             .catch(error => {
                 setError(error.message);
             });
     }
-    /* const emailVerification = () => {
+    const emailVerification = () => {
         sendEmailVerification(auth.currentUser)
             .then(result => {
                 console.log('Varify Email');
             })
-    } */
+    }
     const handleResetPassword = () => {
         sendPasswordResetEmail(auth, email)
             .then(() => {

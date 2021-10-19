@@ -19,7 +19,9 @@ import InputForm from './Components/Contact/InputForm';
 import Footer from './Components/Footer/Footer';
 import SingleItem from './Components/SingleItem/SingleItem';
 import Career from './Components/Career/Career';
-import AuthProvider from './Context/authProvider';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import AuthProvider from './Context/AuthProvider';
+
 function App() {
   return (
     <div className="App">
@@ -68,67 +70,21 @@ function App() {
               <InputForm></InputForm>
             </Route>
 
-            <Route path='/SingleItem/:serviceID'>
+            <PrivateRoute path='/SingleItem/:serviceID'>
               <SingleItem></SingleItem>
-            </Route>
+            </PrivateRoute>
+
+
+            {/*  <Route path='/SingleItem/:serviceID'>
+            <SingleItem></SingleItem>
+          </Route> */}
 
             <Route path='*'>
               <Notfound></Notfound>
             </Route>
+
           </Switch>
-          <Footer></Footer>
-        </Router><Router>
-          <Header></Header>
-          <Switch>
 
-            <Route exact path='/'>
-              <Home></Home>
-            </Route>
-
-            <Route path='/Home'>
-              <Home></Home>
-            </Route>
-
-            <Route path='/About'>
-              <About></About>
-            </Route>
-
-            <Route path='/Services'>
-              <Services></Services>
-            </Route>
-
-            <Route path='/Features'>
-              <Feature></Feature>
-            </Route>
-
-            <Route path="/Career">
-              <Career></Career>
-            </Route>
-
-            <Route path='/Contact'>
-              <Contact></Contact>
-            </Route>
-
-            <Route path='/LogIn'>
-              <LogIn></LogIn>
-            </Route>
-
-            <Route path='/Register'>
-              <Register></Register>
-            </Route>
-
-            <Route path='/InputForm'>
-              <InputForm></InputForm>
-            </Route>
-
-            <Route path='/SingleItem/:serviceID'>
-              <SingleItem></SingleItem>
-            </Route>
-
-            <Route path='*'>
-              <Notfound></Notfound>
-            </Route>
-          </Switch>
           <Footer></Footer>
         </Router>
       </AuthProvider>
@@ -137,3 +93,5 @@ function App() {
 }
 
 export default App;
+
+
