@@ -5,9 +5,9 @@ const Covid = () => {
         <div className="covid-container p-2">
             <h3 className="fw-bold text-5xl my-4">Worried Aboud Covid? Here We Are</h3>
             <div className="row g-4">
-                <div className="col-md-6">
-                    <div className="covid-img mx-auto d-flex align-items-center">
-                        <img src="https://i.ibb.co/9n2dbWS/covid.jpg" className="img-fluid" alt="" />
+                <div className="col-md-6 mx-auto">
+                    <div className="covid-img d-flex flex-wrap align-items-center">
+                        <img src="https://i.ibb.co/9n2dbWS/covid.jpg" className="img-fluid img-thumbnail mx-auto" alt="" />
                     </div>
                 </div>
                 <div className="col-md-6 p-4">

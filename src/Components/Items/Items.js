@@ -7,7 +7,7 @@ const Items = (props) => {
         <div className="item-container col-md-4 g-4">
             <div className="single-item text-center mx-auto shadow-lg p-3 rounded-4">
                 <div className="mx-auto cart-img">
-                    <img className=" img-fluid rounded-3 mb-2" src={img} alt="" />
+                    <img className=" img-fluid mx-auto rounded-3 mb-2" src={img} alt="" />
                 </div>
                 <div className="item-info text-center my-2 fw-bolder">
                     <h4 className="fw-bold" >{title}</h4>
@@ -17,7 +17,7 @@ const Items = (props) => {
                     <hr className="bg-secondary" />
 
                 </div>
-                <Link to={`/SingleItem/${id}`}><button className="btn btn-success"> <i class="fas fa-file-signature"></i> Know More</button></Link>
+                <Link to={`/SingleItem/${id}`}><button className="btn btn-success mx-auto"> <i class="fas fa-file-signature"></i> Know More</button></Link>
             </div>
         </div>
     );

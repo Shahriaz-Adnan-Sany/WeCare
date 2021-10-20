@@ -13,24 +13,26 @@ function ControlledCarousel() {
     return (
         <Carousel activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
-                <div className="img-style">
+                <div className="img-style mx-auto ">
                     <img
-                        className="d-block w-100 img-fluid"
-                        src="https://i.ibb.co/2tTSwHp/heart-bg2.jpg"
+                        className="d-block img-fluid"
+                        src="https://i.ibb.co/J3dJwrr/surgeon-2821375-1920.jpg"
                         alt="Second slide"
                     />
                 </div>
                 <Carousel.Caption>
-                    <h3>Exceptional Care Close to You </h3>
-                    <p>Not just better healthcare, but a better healthcare experience.</p>
+                    <div className="slider-text">
+                        <h3>Exceptional Care Close to You </h3>
+                        <p className="">Not just better healthcare, but a better healthcare experience.</p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
-                <div className="img-style">
+                <div className="img-style mx-auto ">
                     <img
-                        className="d-block w-100 img-fluid"
-                        src="https://i.ibb.co/yhCffkP/heart-bg3.png"
+                        className="d-block img-fluid"
+                        src="https://i.ibb.co/n7NXch2/bg-2.jpg"
                         alt="Second slide"
                     />
                 </div>
@@ -42,9 +44,9 @@ function ControlledCarousel() {
             </Carousel.Item>
 
             <Carousel.Item>
-                <div className="img-style">
+                <div className="img-style mx-auto ">
                     <img
-                        className="d-block w-100 img-fluid"
+                        className="d-block img-fluid"
                         src="https://i.ibb.co/P53NPXw/heart-bg1.jpg"
                         alt="Second slide"
                     />

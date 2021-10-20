@@ -2,12 +2,12 @@
     background-color:palegreen;
 }
 .covid-img {
-    width: 500px;
-    height: 450px;
+    max-width: 500px;
+    max-height: 450px;
     cursor: pointer;
     transform: scale(.9, .9);
 }
 .covid-img:hover {
-    transform: scale(1.2, 1.2);
+    transform: scale(1, 1);
     transition: .8s;
 }

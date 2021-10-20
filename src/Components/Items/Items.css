@@ -3,8 +3,8 @@
     border-radius: 20px;
 }
 .cart-img {
-    width: 380px;
-    height: 250px;
+    max-width: 380px;
+    max-height: 250px;
 }
 .cart-img img {
     width: 100%;

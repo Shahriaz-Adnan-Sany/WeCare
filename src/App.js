@@ -74,11 +74,6 @@ function App() {
               <SingleItem></SingleItem>
             </PrivateRoute>
 
-
-            {/*  <Route path='/SingleItem/:serviceID'>
-            <SingleItem></SingleItem>
-          </Route> */}
-
             <Route path='*'>
               <Notfound></Notfound>
             </Route>
