@@ -6,11 +6,11 @@
 
 ** Google Sign in, Email Password Sign In are included.
 
-** Two Private Router is used while User must have to be logged in.**
+** Two Private Router is used while User must have to be logged in.
 
-** Email validation, Password Reset are included**
+** Email validation, Password Reset are included. 
 
-** Services data won't show if you aren't logged in or signed in.**
+** Services data won't show if you aren't logged in or signed in.
 
 *`Created By: Sany`*
 
