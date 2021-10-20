@@ -1,8 +1,8 @@
 .google-signIn {
     background-image: url("https://i.ibb.co/XtXJkVY/google-1762248-1280.png");
     background-color: #cccccc;
-    width: 300px;
     height: 400px;
+    max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +13,7 @@
     background-image: url("https://i.ibb.co/DYYd1YC/github-6615451-1920.png");
     background-color: #cccccc;
     height: 400px;
+    max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
