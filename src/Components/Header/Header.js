@@ -11,27 +11,30 @@ const Header = () => {
     return (
         <div className="header px-4 py-2">
             <Container fluid>
-                <Navbar className="row my-2">
+                <Navbar collapseOnSelect expand="lg" className="row my-2">
                     <div className="col-sm-12 col-md-3 heading">
                         <h2 className="fw-bold">WeCare</h2>
                     </div>
-                    <Nav className="col-sm-12 col-md-5 d-flex justify-content-center">
-                        <Link className="btn btn-success mx-2" to="/Home">Home</Link>
-                        <Link className="btn btn-success mx-2" to="/Features">Features</Link>
-                        <Link className="btn btn-success mx-2" to="/Services">Services</Link>
-                        <Link className="btn btn-success mx-2" to="/About">About</Link>
-                        <Link className="btn btn-success mx-2" to="/Career">Career</Link>
-                    </Nav>
+                    <Navbar.Toggle aria-controls="navbarScroll" />
+                    <Navbar.Collapse id="navbarScroll">
+                        <Nav className="col-sm-12 col-md-5 d-flex justify-content-center">
+                            <Link className="btn btn-success mx-2" to="/Home">Home</Link>
+                            <Link className="btn btn-success mx-2" to="/Features">Features</Link>
+                            <Link className="btn btn-success mx-2" to="/Services">Services</Link>
+                            <Link className="btn btn-success mx-2" to="/About">About</Link>
+                            <Link className="btn btn-success mx-2" to="/Career">Career</Link>
+                        </Nav>
 
-                    <div className="col-sm-12 col-md-4 d-flex justify-content-end">
+                        <div className="col-sm-12 col-md-4 d-flex justify-content-end">
 
-                        <Form className="">
-                            <span className="fw-bold ">{user.displayName}</span>
-                            {user?.email && <Button onClick={logOut} className="btn btn-success mx-2">Log Out</Button>
-                            }
-                            <Link to='/Contact' className="btn btn-success text-end">Contact US</Link>
-                        </Form>
-                    </div>
+                            <Form className="">
+                                <span className="fw-bold ">{user.displayName}</span>
+                                {user?.email && <Button onClick={logOut} className="btn btn-success mx-2">Log Out</Button>
+                                }
+                                <Link to='/Contact' className="btn btn-success text-end">Contact US</Link>
+                            </Form>
+                        </div>
+                    </Navbar.Collapse>
                 </Navbar>
             </Container>
         </div >
