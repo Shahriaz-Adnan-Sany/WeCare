@@ -1,3 +1,15 @@
+# Project WeCare
+
+[Live Server Link]: (https://we-care-3fd4a.web.app/).
+
+**This a hospital based Project.**
+**Google Sign in, Email Password Sign In are included.**
+**Two Private Router is used while User must have to be logged in.**
+**Email validation, Password Reset are included**
+**Services data won't show if you aren't logged in or signed in.**
+
+*Created By: Sany*
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
