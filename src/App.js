@@ -54,6 +54,10 @@ function App() {
               <Career></Career>
             </Route>
 
+            <PrivateRoute exact path="/Career/CareerID">
+              <Career></Career>
+            </PrivateRoute>
+
             <Route exact path='/Contact'>
               <Contact></Contact>
             </Route>
