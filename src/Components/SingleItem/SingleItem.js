@@ -11,18 +11,15 @@ const SingleItem = () => {
             .then(data => setData(data))
     }, []);
     const matchData = data.filter(singleData => singleData.id == serviceID);
-    console.log(matchData);
 
     return (
 
         <div className="py-4">
             <div className="card mx-auto w-50">
-                <h2>{matchData[0]?.id}This is card </h2>
-
                 <img src={matchData[0]?.img} className="card-img-top" alt="" />
                 <div class="card-body">
-                    <h5 class="card-title">{matchData[0]?.title}</h5>
-                    <p class="card-text">{matchData[0]?.description}</p>
+                    <h4 class="card-title fw-bold">{matchData[0]?.title}</h4>
+                    <p class="card-text fw-bold">{matchData[0]?.description}</p>
                 </div>
             </div>
 
