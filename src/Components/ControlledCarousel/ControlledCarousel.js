@@ -62,6 +62,4 @@ function ControlledCarousel() {
         </Carousel>
     );
 }
-
-render(<ControlledCarousel />);
 export default ControlledCarousel;

@@ -9,15 +9,16 @@ const SingleItem = () => {
         fetch('/Data.json')
             .then(res => res.json())
             .then(data => setData(data))
-        console.log(data);
     }, []);
-
-    const matchData = data.filter(singleData => singleData.id === serviceID);
+    const matchData = data.filter(singleData => singleData.id == serviceID);
     console.log(matchData);
+
     return (
+
         <div className="py-4">
             <div className="card mx-auto w-50">
-                <h2>This is card </h2>
+                <h2>{matchData[0]?.id}This is card </h2>
+
                 <img src={matchData[0]?.img} className="card-img-top" alt="" />
                 <div class="card-body">
                     <h5 class="card-title">{matchData[0]?.title}</h5>

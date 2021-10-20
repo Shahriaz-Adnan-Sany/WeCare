@@ -34,47 +34,47 @@ function App() {
               <Home></Home>
             </Route>
 
-            <Route path='/Home'>
+            <Route exact path='/Home'>
               <Home></Home>
             </Route>
 
-            <Route path='/About'>
+            <Route exact path='/About'>
               <About></About>
             </Route>
 
-            <Route path='/Services'>
+            <Route exact path='/Services'>
               <Services></Services>
             </Route>
 
-            <Route path='/Features'>
+            <Route exact path='/Features'>
               <Feature></Feature>
             </Route>
 
-            <Route path="/Career">
+            <Route exact path="/Career">
               <Career></Career>
             </Route>
 
-            <Route path='/Contact'>
+            <Route exact path='/Contact'>
               <Contact></Contact>
             </Route>
 
-            <Route path='/LogIn'>
+            <Route exact path='/LogIn'>
               <LogIn></LogIn>
             </Route>
 
-            <Route path='/Register'>
+            <Route exact path='/Register'>
               <Register></Register>
             </Route>
 
-            <Route path='/InputForm'>
+            <Route exact path='/InputForm'>
               <InputForm></InputForm>
             </Route>
 
-            <PrivateRoute path='/SingleItem/:serviceID'>
+            <PrivateRoute exact path='/SingleItem/:serviceID'>
               <SingleItem></SingleItem>
             </PrivateRoute>
 
-            <Route path='*'>
+            <Route exact path='*'>
               <Notfound></Notfound>
             </Route>
 

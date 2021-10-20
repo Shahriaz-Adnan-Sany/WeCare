@@ -6,8 +6,8 @@ const Items = (props) => {
     return (
         <div className="item-container col-md-4 g-4">
             <div className="single-item text-center mx-auto shadow-lg p-3 rounded-4">
-                <div className="mx-auto cart-img">
-                    <img className=" img-fluid mx-auto rounded-3 mb-2" src={img} alt="" />
+                <div className="item-cart-img mx-auto">
+                    <img className="img-fluid mx-auto rounded-3 mb-2" src={img} alt="" />
                 </div>
                 <div className="item-info text-center my-2 fw-bolder">
                     <h4 className="fw-bold" >{title}</h4>
