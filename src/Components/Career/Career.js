@@ -1,7 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useParams } from 'react-router';
 import './Career.css';
 const Career = () => {
+    const { CareerID } = useParams();
+
+
+
+
+
     return (
         <div>
             <div className="career-table my-4 w-75 mx-auto shadow-lg">

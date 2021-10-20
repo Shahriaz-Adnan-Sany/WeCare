@@ -50,11 +50,7 @@ function App() {
               <Feature></Feature>
             </Route>
 
-            <Route exact path="/Career">
-              <Career></Career>
-            </Route>
-
-            <PrivateRoute exact path="/Career/CareerID">
+            <PrivateRoute exact path="/Career">
               <Career></Career>
             </PrivateRoute>
 
